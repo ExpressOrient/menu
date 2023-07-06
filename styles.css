@@ -225,14 +225,56 @@ body {
 #Desert {
     background-color: #ffffff;
 	
-video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      z-index: -1;
+#Sauce h2 {
+	 color: #FFFFFF; /* Couleur du texte en blanc */
+	}
+#Sauce h1 {
+	 color: #FFFFFF; /* Couleur du texte en blanc */
+	}
+#Sauce h3 {
+	 color: #FFFFFF; /* Couleur du texte en blanc */
+	}	
+	
+#Boisson ul {
+    list-style: none;
+    text-align: center;
+}
+
+#Boisson ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#Boisson h3{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#Boisson {
+    background-color: #ffffff;
+}
+
+	#Deventure {
+      width: auto%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+#CreaPain {
+      background-image;
+      width: auto%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
     }
+    #video {
+		 text-align: center;
+      width: auto%;
+      height: auto%;
+      object-fit: contain;
+}
+#CréaPain  {
+	text-align: center;
+}
