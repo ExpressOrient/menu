@@ -1,0 +1,280 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li, form, label, input, footer {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles généraux */
+body {
+    background-color: #f7f7f7;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    background-color: #990000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00a600;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+section h1, section h2, section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #006600;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+/* Accueil */
+#accueil {
+    background-color: #ffffff;
+}
+
+/* Menu */
+#SansMenu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#SansMenu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#SansMenu h3{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#SansMenu {
+    background-color: #ffffff;
+}
+
+#AvecMenu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#AvecMenu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#AvecMenu h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+#horaire 2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+#contact {
+    background-color: #ffffff;
+}
+
+#contact p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+footer {
+    background-color: #990000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+menu-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+menu-item h3 {
+  margin: 0;
+}
+
+menu-item p {
+  margin: 0;
+}
+
+menu-item text-container {
+  flex-grow: 1;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+body {
+            background-color: #f2f2f2; /* Couleur de fond gris */
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #F4492A; /* Rouge pour les cases paires */
+            color: #FFFFFF; /* Couleur du texte en blanc */
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #3D7D0B; /* Vert pour les cases impaires */
+            color: #FFFFFF; /* Couleur du texte en blanc */
+        }
+        
+        a {
+            color: #FFFFFF; /* Couleur du texte des liens en blanc */
+            text-decoration: none;
+        }
+        
+        menu-image {
+            width: 25%;
+        }
+		 
+        menu-image1 {
+            width: 25%;
+        }
+#Desert ul {
+    list-style: none;
+    text-align: center;
+}
+
+#Desert ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#Desert h3{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#Desert {
+    background-color: #ffffff;
+	
+#Sauce h2 {
+	 color: #FFFFFF; /* Couleur du texte en blanc */
+	}
+#Sauce h1 {
+	 color: #FFFFFF; /* Couleur du texte en blanc */
+	}
+#Sauce h3 {
+	 color: #FFFFFF; /* Couleur du texte en blanc */
+	}	
+	
+#Boisson ul {
+    list-style: none;
+    text-align: center;
+}
+
+#Boisson ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#Boisson h3{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#Boisson {
+    background-color: #ffffff;
+}
+
+	#Deventure {
+      width: auto%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+#CreaPain {
+      background-image;
+      width: auto%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+    }
+    #video {
+		 text-align: center;
+      width: auto%;
+      height: auto%;
+      object-fit: contain;
+}
+#CréaPain  {
+	text-align: center;
+}
