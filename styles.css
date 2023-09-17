@@ -103,7 +103,7 @@ section p {
     color: #ffffff;
     margin-bottom: 10px;
 }
-#horaire 2 {
+#horaire {
     color: #333333;
     margin-bottom: 10px;
 }
@@ -224,7 +224,7 @@ body {
 
 #Desert {
     background-color: #ffffff;
-	
+}
 #Sauce h2 {
 	 color: #FFFFFF; /* Couleur du texte en blanc */
 	}
@@ -255,26 +255,39 @@ body {
 }
 
 	#Deventure {
-      width: auto%;
+      width: auto;
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
 }
 
 #CreaPain {
-      background-image;
-      width: auto%;
+      
+      width: auto;
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
 	  text-align: center;
     }
     #video {
-		 text-align: center;
-      width: auto%;
-      height: auto%;
-      object-fit: contain;
-}
+		    text-align: center;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+        }
 #CréaPain  {
 	text-align: center;
 }
+#photo {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Deventure {
+    
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
